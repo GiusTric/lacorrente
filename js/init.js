@@ -21,3 +21,7 @@ $('#nextBtn').click(function(){
         $('.slider').slider('pause');
     },800);
 });
+
+$(document).ready(function(){
+    $('.materialboxed').materialbox();
+});
