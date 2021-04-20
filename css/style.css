@@ -54,4 +54,11 @@ p {
 
 footer.page-footer {
   margin: 0;
+  background-color: #5E53F3;
+}
+
+.social-icon {
+  font-size: 2em;
+  color: #FFF;
+  padding: 0 10px;
 }
