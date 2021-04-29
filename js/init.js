@@ -7,6 +7,7 @@
   }); // end of document ready
 })(jQuery); // end of jQuery name space
 
+/*Slider*/
 
 $('.slider').slider({
     full_width: true,
@@ -21,6 +22,8 @@ $('#nextBtn').click(function(){
         $('.slider').slider('pause');
     },800);
 });
+
+/*Galleria*/
 
 $(document).ready(function(){
     $('.materialboxed').materialbox();
