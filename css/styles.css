@@ -5,9 +5,10 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   font-family: 'Helvetica', 'Roboto', sans-serif;
-  font-size: 14px;
+  font-size: 18px;
   line-height: 1.5;
-  background-color: #f0f0f0;
+  /*background-color: #f0f0f0;*/
+  background-color: #ffffff;
 }
 .main_hero {
   background-image: url('../media/background.jpg');
@@ -19,6 +20,16 @@ a {
 }
 img {
   max-width: 100%;
+}
+a.is-zero {
+  background-color: #1890B3 !important;
+  border: 1px solid #1890B3 !important;
+  color: #ffffff;
+}
+a.is-zero:hover {
+  background-color: transparent !important;
+  color: #000000 !important;
+  font-weight: bold;
 }
 a.is-one {
   background-color: #CC0000 !important;
@@ -184,8 +195,8 @@ footer {
   box-shadow: none;
 }
 .navbar-item {
-  color: #1890B3;
-  /*font-family: 'Poppins-Black';
-  src: url('fonts/Poppins-Black.ttf') format('truetype');*/
-  font-size: 18px;
+  color: #1890B3 !important;
+  font-size: 20px;
+  font-weight: bold;
+  background-color: transparent !important;
 }
