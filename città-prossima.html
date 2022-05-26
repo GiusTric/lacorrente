@@ -23,25 +23,27 @@
 	<div class="hero-head">
 		<div class="first_nav">
 			<div class="container">
-				<nav class="navbar">
+				<!-- <nav class="navbar">-->
+				<nav class="navbar" role="navigation" aria-label="main navigation">
 					<div class="navbar-brand">
 					<a class="image" href="http://www.lacorrente.org">
 					<img src="images/LaCorrente.ico"/>
 					</a>
 						<!-- Mobile Menu -->
-						<div class="navbar-burger burger" data-target="navMenuBlogHero">
+						<!-- <div class="navbar-burger burger" data-target="navMenuCorrente">-->
+						<div class="navbar-burger" data-target="navMenuCorrente">
 						<span></span>
 						<span></span>
 						<span></span>
 						</div>
 					</div>
 						<!-- Menu -->
-						<div id="navMenuBlogHero" class="navbar-menu">
+						<div id="navMenuCorrente" class="navbar-menu">
 						<!-- Left Nav -->
 							<div class="navbar-start">
-							<a class="navbar-item" href="index.html#chi-siamo">CHI SIAMO</a>
+							<a class="navbar-item" href="#chi-siamo">CHI SIAMO</a>
 							<a class="navbar-item" href="città-prossima.html">CITTÀ PROSSIMA</a>
-							<a class="navbar-item" href="index.html#lista">LA LISTA</a>
+							<a class="navbar-item" href="#lista">LA LISTA</a>
 							<a class="navbar-item" href="#galleria">GALLERIA</a>
 							<a class="navbar-item" href="#contattaci">CONTATTACI</a>
 						</div>
@@ -356,142 +358,141 @@
 	</div>
 </section>
 
-<!-- Contact Us Section -->
+<!-- Sezione Contattaci -->
 <section class="hero" id="contattaci">
-    <div class="hero-body">
-    <div class="container">
-        <div>
-        <div class="content">
-            <h4 class="title is-4">Unisciti a noi</h4>
-        </div>
-        <h6 class="subtitle is-6">Lascia il tuo indirizzo mail e il tuo numero</h6>
-        <div class="columns box">
-            <form class="column" action="#">
-            <div class="field">
-                <label class="label">Nome</label>
-                <div class="control">
-                <input class="input" type="text" placeholder="Il tuo nome" required="" />
-                </div>
+	<div class="hero-body">
+	<div class="container"><div>
+		<div class="content">
+			<h4 class="title is-4">Unisciti a noi</h4>
+		</div>
+			<h6 class="subtitle is-6">Lascia il tuo indirizzo mail e il tuo numero</h6>
+		<div class="columns box">
+			<form class="column" action="#">
+			<div class="field">
+				<label class="label">Nome</label>
+				<div class="control">
+				<input class="input" type="text" placeholder="Il tuo nome" required="" />
+				</div>
             </div>
             <div class="field">
-                <label class="label">Email</label>
-                <div class="control">
-                <input class="input" type="text" placeholder="Il tuo indirizzio mail" required="" />
-                </div>
-            </div>
-            <div class="field">
-                <label class="label">Telefono</label>
-                <div class="control">
-                <input class="input" type="text" placeholder="Il tuo telefono" required="" />
-                </div>
-            </div>
-            <div class="field">
-                <label class="label">Messaggio</label>
-                <div class="control">
-                <textarea 
-                    class="textarea"
-                    type="text"
-                    placeholder="Scrivi il tuo messaggio..."
-                    required=""
-                ></textarea>
-                </div>
-            </div>
-            <div class="field">
-                <div class="control">
-                <label class="checkbox">
-                <input type="checkbox">
-                Ho letto e accetto <a href="#">le condizioni e le finalità del trattamento dei dati personali</a>
-                </label>
-                </div>
-            </div>
-            <div class="field">
-                <label class="label"></label>
-                <div class="control">
-                <input class="button is-primary" type="submit"/>
-                </div>
-            </div>
-            </form>
-            <div class="column">
-            <iframe
-                width="100%"
-                height="100%"
-                frameborder="0"
-                style="border: 0;"
-                allowfullscreen
-                src="https://www.google.com/maps/embed/v1/place?key=AIzaSyBXBiGYHpngbDQZ6_-gn-w0NHnZwWTWr_M&q=Via+Amedeo,+4,+70038+Terlizzi+BA"
-            ></iframe>
-            </div>
-        </div>
-        </div>
-    </div>
-    </div>
+				<label class="label">Email</label>
+				<div class="control">
+				<input class="input" type="text" placeholder="Il tuo indirizzio mail" required="" />
+				</div>
+			</div>
+			<div class="field">
+				<label class="label">Telefono</label>
+				<div class="control">
+				<input class="input" type="text" placeholder="Il tuo telefono" required="" />
+				</div>
+			</div>
+			<div class="field">
+				<label class="label">Messaggio</label>
+				<div class="control">
+					<textarea 
+					class="textarea"
+					type="text"
+					placeholder="Scrivi il tuo messaggio..."
+					required=""
+					></textarea>
+				</div>
+			</div>
+			<div class="field">
+				<div class="control">
+				<label class="checkbox">
+				<input type="checkbox">
+				Ho letto e accetto <a href="#">le condizioni e le finalità del trattamento dei dati personali</a>
+				</label>
+				</div>
+			</div>
+			<div class="field">
+				<label class="label"></label>
+				<div class="control">
+				<input class="button is-primary" type="submit"/>
+				</div>
+			</div>
+			</form>
+			<div class="column">
+			<iframe
+				width="100%"
+				height="100%"
+				frameborder="0"
+				style="border: 0;"
+				allowfullscreen
+				src="https://www.google.com/maps/embed/v1/place?key=AIzaSyBXBiGYHpngbDQZ6_-gn-w0NHnZwWTWr_M&q=Via+Amedeo,+4,+70038+Terlizzi+BA"
+			></iframe>
+			</div>
+		</div>
+		</div>
+	</div>
+	</div>
 </section>
-<!-- ./Contact Us Section -->
+<!-- ./Sezione Contattaci -->
 
 <!-- Sezione Footer -->
 <footer class="hero is-small">
-    <div class="hero-body">
-    <div class="container">
-        <div class="columns">
-        <div class="column is-4">
-            <div class="content">
-            <!--<h6 class="footer_title title is-6">Newsletter</h6>
-            <p>We love to share new offers and exclusive promotions</p>
-            <div class="newsletter">
-                <form action="#" method="POST" class="newsletter-form">
-                <input type="email" name="email" placeholder="Enter your email address" />
-                <button>
-                    <i class="fa fa-paper-plane"></i>
-                </button>
-                </form>
-            </div>-->
-            </div>
-        </div>
-        <div class="column is-4" style="text-align: center;">
-            <div class="content">
-            <div>
-                <h6 class="footer_title title is-6">Seguici sui social</h6>
-                <p>Siamo su Facebook Instagram e YouTube</p>
-                <a class="button is-medium is-facebook" href="https://www.facebook.com/MovimentoLaCorrente" target="_blank" rel="noopener noreferrer">
-                <span class="icon">
-                    <i class="fab fa-facebook-f fa-lg"></i>
-                </span>
-                </a>
-                <a class="button is-medium is-instagram" href="https://www.instagram.com/accounts/login/?next=/lacorrente_terlizzi/" target="_blank" rel="noopener noreferrer">
-                <span class="icon">
-                    <i class="fab fa-instagram fa-lg"></i>
-                </span>
-                </a>
-                <a class="button is-medium is-youtube" href="https://www.youtube.com/channel/UC-hgup-3wgXvr7NcX11tkJQ" target="_blank" rel="noopener noreferrer">
-                <span class="icon">
-                    <i class="fab fa-youtube fa-lg"></i>
-                </span>
-                </a>
-            </div>
-            </div>
-        </div>
-        <div class="column is-4">
-            <div class="content">
-            <!--<h6 class="footer_title title is-6">Dove siamo</h6>
-                <p class="is-marginless">Via Amedeo 4 - 70038 Terlizzi</p>
-            <div>
-                <i class="fa fa-phone"></i> &nbsp; <span>Telefono</span> &nbsp;
-                <a href="tel:+393482586810">+393482586810</a>
-            </div>-->
-            </div>
-        </div>
-        </div>
-    </div>
-    </div>
-    <div class="hero-foot">
-    <div class="container has-text-centered">
-        <p class="footer-text">
-        &copy; 2022 - La Corrente <br />
-        <a style="color: white;"
-            >Realizzato con il <i class="fa fa-heart fa-fw" style="font-size: 18px; color: red;"></i> </a		
-        </p>
-    </div>
-    </div>
+	<div class="hero-body">
+	<div class="container">
+		<div class="columns">
+		<div class="column is-4">
+			<div class="content">
+			<!--<h6 class="footer_title title is-6">Newsletter</h6>
+			<p>We love to share new offers and exclusive promotions</p>
+			<div class="newsletter">
+				<form action="#" method="POST" class="newsletter-form">
+				<input type="email" name="email" placeholder="Enter your email address" />
+					<button>
+					<i class="fa fa-paper-plane"></i>
+					</button>
+				</form>
+			</div>-->
+			</div>
+		</div>
+		<div class="column is-4" style="text-align: center;">
+			<div class="content">
+			<div>
+				<h6 class="footer_title title is-6">Seguici sui social</h6>
+				<p>Siamo su Facebook Instagram e YouTube</p>
+				<a class="button is-medium is-facebook" href="https://www.facebook.com/MovimentoLaCorrente" target="_blank" rel="noopener noreferrer">
+				<span class="icon">
+					<i class="fab fa-facebook-f fa-lg"></i>
+				</span>
+				</a>
+				<a class="button is-medium is-instagram" href="https://www.instagram.com/accounts/login/?next=/lacorrente_terlizzi/" target="_blank" rel="noopener noreferrer">
+				<span class="icon">
+					<i class="fab fa-instagram fa-lg"></i>
+				</span>
+				</a>
+				<a class="button is-medium is-youtube" href="https://www.youtube.com/channel/UC-hgup-3wgXvr7NcX11tkJQ" target="_blank" rel="noopener noreferrer">
+				<span class="icon">
+					 <i class="fab fa-youtube fa-lg"></i>
+				</span>
+				</a>
+			</div>
+			</div>
+		</div>
+		<div class="column is-4">
+			<div class="content">
+			<!--<h6 class="footer_title title is-6">Dove siamo</h6>
+				<p class="is-marginless">Via Amedeo 4 - 70038 Terlizzi</p>
+			<div>
+				<i class="fa fa-phone"></i> &nbsp; <span>Telefono</span> &nbsp;
+				<a href="tel:+393482586810">+393482586810</a>
+			</div>-->
+			</div>
+		</div>
+		</div>
+	</div>
+	</div>
+	<div class="hero-foot">
+	<div class="container has-text-centered">
+		<p class="footer-text">
+		&copy; 2022 - La Corrente <br />
+		<a style="color: white;"
+			>Realizzato con il <i class="fa fa-heart fa-fw" style="font-size: 18px; color: red;"></i> </a		
+		</p>
+	</div>
+	</div>
 </footer>
 <!-- ./Sezione Footer -->
 
