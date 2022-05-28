@@ -373,7 +373,7 @@
 </section>
 <!-- ./Sezione Lista -->
 
-    <!-- Sezione Galleria -->
+<!-- Sezione Galleria -->
     <section class="hero" id="galleria">
       <div class="hero-body is-paddingless">
         <div class="container is-clipped">
@@ -490,9 +490,11 @@
         </div>
       </div>
 </section>
-    <!-- ./Sezione Galleria -->
+<!-- ./Sezione Galleria -->
 
-    <!-- Contact Us Section -->
+
+<!-- Contact Us Section -->
+<!--
     <section class="hero" id="contattaci">
       <div class="hero-body">
         <div class="container">
@@ -502,7 +504,7 @@
             </div>
             <h6 class="subtitle is-6">Lascia il tuo indirizzo mail e il tuo numero</h6>
             <div class="columns box">
-              <form class="column" action="">
+              <form class="column" action="#">
                 <div class="field">
                   <label class="label">Nome</label>
                   <div class="control">
@@ -562,9 +564,10 @@
         </div>
       </div>
     </section>
-    <!-- ./Contact Us Section -->
+<!-- ./Contact Us Section -->
+-->
 
-    <!-- Sezione Footer -->
+<!-- Sezione Footer -->
     <footer class="hero is-small">
       <div class="hero-body">
         <div class="container">
@@ -628,7 +631,7 @@
         </div>
       </div>
     </footer>
-    <!-- ./Sezione Footer -->
+<!-- ./Sezione Footer -->
 
   </body>
 </html>
