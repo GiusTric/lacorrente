@@ -77,8 +77,7 @@
 	</div>
 	<div class="intro column is-8 is-offset-2">
 		<h2 class="title is-1 has-text-centered">Sostienici</h2>
-	<div class="intro column is-8 is-offset-2">
-	</div>
+		<h2 class="title is-1"></h2>
 		<h2 class="subtitle is-1" style="font-size: 24px; font-weight: bold; color: #CC0000;">Donazione con Paypal</h2>
 		<p class="text">Puoi effettuare una donazione con carta di credito, in modo sicuro, attraverso PayPal. 
 										  Puoi anche effettuare una donazione ricorrente selezionando la casella “Imposta come donazione mensile” nella pagina di PayPal.</p>
