@@ -198,7 +198,6 @@ footer {
   background-color: #344157;
   border-top: 5px solid #CC0000;
   color: #fff !important;
-  font-size: 16px;
 }
 .footer_title {
   color: #fff !important;
