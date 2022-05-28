@@ -1,6 +1,18 @@
 html {
   scroll-behavior: smooth;
 }
+.navbar {
+  box-shadow: none;
+}
+.navbar-item {
+  color: #1890B3 !important;
+  font-size: 18px;
+  font-weight: bold;
+  background-color: transparent !important;
+}
+.navbar-brand {
+  margin: 10px 10px 10px 10px;
+}
 body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -9,6 +21,10 @@ body {
   line-height: 1.5;
   /*background-color: #f0f0f0;*/
   background-color: #ffffff;
+}
+.main-text {
+  color: white;
+  text-shadow: 4px 4px 12px #29211b;
 }
 .main_hero {
   background-image: url('../media/background.jpg');
@@ -177,22 +193,6 @@ iframe {
   background-color: #d77b5d;
   outline: none;
   border: 0;
-}
-.main-text {
-  color: white;
-  text-shadow: 4px 4px 12px #29211b;
-}
-.navbar {
-  box-shadow: none;
-}
-.navbar-item {
-  color: #1890B3 !important;
-  font-size: 18px;
-  font-weight: bold;
-  background-color: transparent !important;
-}
-.navbar-brand {
-  margin: 10px 10px 10px 10px;
 }
 footer {
   background-color: #344157;

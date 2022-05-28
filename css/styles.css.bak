@@ -1,6 +1,18 @@
 html {
   scroll-behavior: smooth;
 }
+.navbar {
+  box-shadow: none;
+}
+.navbar-item {
+  color: #1890B3 !important;
+  font-size: 18px;
+  font-weight: bold;
+  background-color: transparent !important;
+}
+.navbar-brand {
+  margin: 10px 10px 10px 10px;
+}
 body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -182,22 +194,11 @@ iframe {
   color: white;
   text-shadow: 4px 4px 12px #29211b;
 }
-.navbar {
-  box-shadow: none;
-}
-.navbar-item {
-  color: #1890B3 !important;
-  font-size: 18px;
-  font-weight: bold;
-  background-color: transparent !important;
-}
-.navbar-brand {
-  margin: 10px 10px 10px 10px;
-}
 footer {
   background-color: #344157;
   border-top: 5px solid #CC0000;
   color: #fff !important;
+  font-size: 16px;
 }
 .footer_title {
   color: #fff !important;
