@@ -41,7 +41,7 @@
 						<div id="navMenuCorrente" class="navbar-menu">
 						<!-- Left Nav -->
 							<div class="navbar-start">
-							<a class="navbar-item" href="chi-siamo">CHI SIAMO</a>
+							<a class="navbar-item" href="#chi-siamo">CHI SIAMO</a>
 							<a class="navbar-item" href="città-prossima.html">CITTÀ PROSSIMA</a>
 							<a class="navbar-item" href="#lista">LA LISTA</a>
 							<a class="navbar-item" href="#galleria">GALLERIA</a>
