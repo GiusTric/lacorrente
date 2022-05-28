@@ -6,7 +6,7 @@ html {
 }
 .navbar-item {
   color: #1890B3 !important;
-  font-size: 18px;
+  font-size: 16px;
   font-weight: bold;
   background-color: transparent !important;
 }
@@ -21,6 +21,10 @@ body {
   line-height: 1.5;
   /*background-color: #f0f0f0;*/
   background-color: #ffffff;
+}
+.main-text {
+  color: white;
+  text-shadow: 4px 4px 12px #29211b;
 }
 .main_hero {
   background-image: url('../media/background.jpg');
@@ -189,10 +193,6 @@ iframe {
   background-color: #d77b5d;
   outline: none;
   border: 0;
-}
-.main-text {
-  color: white;
-  text-shadow: 4px 4px 12px #29211b;
 }
 footer {
   background-color: #344157;
