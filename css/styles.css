@@ -11,6 +11,13 @@ html {
   background-color: transparent !important;
 }
 }
+.navbar-dropdown {
+  color: #288AA7 !important;
+  font-size: 18px;
+  font-weight: bold;
+  background-color: transparent !important;
+}
+}
 .navbar-link {
   color: #288AA7 !important;
   font-size: 18px;
