@@ -4,14 +4,20 @@ html {
 .navbar {
   box-shadow: none;
 }
+.navbar-brand {
+  margin: 10px 10px 10px 10px;
+}
 .navbar-item {
   color: #288AA7 !important;
   font-size: 18px;
   font-weight: bold;
   background-color: transparent !important;
 }
-.navbar-brand {
-  margin: 10px 10px 10px 10px;
+.navbar-link {
+  color: #288AA7 !important;
+  font-size: 18px;
+  font-weight: bold;
+  background-color: transparent !important;
 }
 body {
   -webkit-font-smoothing: antialiased;
