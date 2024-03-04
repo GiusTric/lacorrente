@@ -82,7 +82,7 @@ navbar {
   color: #067C89;
   transition: 0.2s ease;
   font-size: 14px;
-  padding: 6px 25px;
+  padding: 10px 25px;
 }
 .navbar .has-dropdown .navbar-item:not(:last-child) {
   padding-bottom: 10px;
