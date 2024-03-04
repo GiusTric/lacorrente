@@ -19,21 +19,11 @@ navbar {
     text-align: center;
   }
 }
-/*
-.navbar-item {
-  margin: 0;
-  padding: 0.5rem 0.6rem;
-}
-@media (max-width: 1023px) {
-  .navbar-item {
-    text-align: center;
-  }
-}
-*/
 
 .navbar-item .navbar-link {
   text-transform: capitalize;
   color: #067C89;
+  font-weight: bold;
 }
 .navbar-item .navbar-link:active, .navbar-item .navbar-link:hover {
   color: #067C89 !important;
