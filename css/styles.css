@@ -18,7 +18,7 @@ navbar {
 }
 .navbar-item .navbar-link {
   text-transform: capitalize;
-  color: #1c1d1f;
+  color: #067C89;
 }
 .navbar-item .navbar-link:active, .navbar-item .navbar-link:hover {
   color: #067C89 !important;
