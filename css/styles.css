@@ -7,6 +7,19 @@ navbar {
 .navbar-brand {
   margin: 10px 10px 10px 10px;
 }
+
+.navbar-item {
+  color: #067C89 !important;
+  font-size: 16px;
+  font-weight: bold;
+  background-color: transparent !important;
+  }
+@media (max-width: 1023px) {
+  .navbar-item {
+    text-align: center;
+  }
+}
+/*
 .navbar-item {
   margin: 0;
   padding: 0.5rem 0.6rem;
@@ -16,6 +29,8 @@ navbar {
     text-align: center;
   }
 }
+*/
+
 .navbar-item .navbar-link {
   text-transform: capitalize;
   color: #067C89;
