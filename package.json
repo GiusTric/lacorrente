@@ -1,0 +1,8 @@
+{
+  "name": "la-corrente",
+  "version": "1.0.0",
+  "description": "Sito La Corrente Terlizzi",
+  "scripts": {
+    "dev": "npx serve -p 3000"
+  }
+}
